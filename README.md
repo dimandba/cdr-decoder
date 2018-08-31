@@ -33,4 +33,16 @@ If the next argument - is the name of CDR-file, the decoder will create a new ta
 
 /j: - Load the saved job settings.
 ```
+![CDR.Decoder APP](/doc/2243.PNG)
 
+##### HOWTO
+
+If enabled formatting-mode (Farmatter Active = True), only defined elements will be printed. For each element You can choose the type of value that will be logged, the name of the column. The available element dependent on the chosen definition scheme:
+
+![Formatter](/doc/2238.PNG)
+
+To adjust the format of the output log-file, you can use additional parameters: Format String, Print Columns Header:
+
+![Log file 1](/doc/2241.PNG)
+
+![Log file 2](/doc/2244.PNG)
