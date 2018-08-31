@@ -1,0 +1,13 @@
+Build 101112-2227 (Version 2.2) + Extended support of Ericsson SGSN CDR ! IntegerParselet now support up to 64-bit signed integer ! Fixed some errors
+
+Build 101024-2203 + Support for CDR files Ericsson Gateway GPRS Support Node (GGSN), Ericsson Serving GPRS Support Node R7 (SGSN R7)
+
+Build 100316-2312 ! New version - 2.1 . A lot of changes. Support for CDR files Ericsoon, Siemens D900
+
+Build 090728-1658 ! Fixed errors in IntegerParselet, UssdStringParselet, add secondCellId to CS-10
+
+Build 090703-1711 + secondCellId, dAId, msAccessRate, redirectionCounter, sMTransmissionResult, reasonForTermination, usedEmlppPriority, cUGInterlockCode, aOCParameter
+
+Build 090423-1139 + recordType, callTransactionType parselets with value-type by default "Type" + ussdString parselet now decode ussd string correctly + Change default prefix. Hex: 0x -> H' ; Bin: 0b -> B'
+
+Build 090417-1530 * First public version
